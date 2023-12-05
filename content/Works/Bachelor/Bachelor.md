@@ -1,0 +1,1 @@
+For a list of all works done during the bachelor visit the page [[Index of all Works]].
