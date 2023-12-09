@@ -1,4 +1,4 @@
-Second course in #Analysis hold by Reinhard Racke at the #UniKonstanz during the #2nd_Semester.
+Hold by Prof. Reinhard Racke at the #UniKonstanz during the #2nd_Semester. Here follows a recap of all chapters relevant for the exam.
 ## Recap
 ### 9
 #### 9.3 Taylorreihen

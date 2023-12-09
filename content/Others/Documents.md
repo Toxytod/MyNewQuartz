@@ -1,5 +1,5 @@
 Here I list relevant documents that might be useful to the reader:
-1. [[Curriculum_Vitae 1.pdf]]
+1. [[Curriculum_Vitae.pdf]]
 2. [[Transcript of Records Contance.pdf]]
 3. [[Marks LMU.pdf]]
 4. [[List_of_Missing_Courses.pdf]]

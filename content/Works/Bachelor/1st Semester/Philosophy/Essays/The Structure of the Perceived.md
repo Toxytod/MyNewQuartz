@@ -1,6 +1,9 @@
-I wrote this essay during the [[First Semester]] at the [[University of Constance]] for the course on [[Theoretical Philosophy]] by [[Dorothea Debus]].
-This essay is explicitely very connected to [[The Frequency of Telling Stories]] and in particular I stressed the comparison with [[Sydney Shoemaker]] and [[Jennifer Church]]. I developped no particularly relevant new idea, just gave a role to the [[Will]] in the structure and not much more.
-``` latex
+I wrote this essay during the #1st_Semester at the #UniKonstanz for the course on Theoretical Philosophy by [Dorothea Debus](https://www.philosophie.uni-konstanz.de/ag-debus/personen/dorothea-debus/).
+This essay is explicitly very connected to [[The Frequency of Telling Stories]] and in particular I stressed the comparison with Sydney Shoemaker and Jennifer Church.
+#### Abstract
+There are two very different kinds of questions on perception, the first ones regard the relationship of what we perceive with the world itself and the second ones regard the intrinsic structure of the perceived. My focus will lay solely in the latter questions, trying to characterise the widest possible range of the perceived.
+#### $\LaTeX$ code
+``` LaTeX
 \documentclass{article}
 \usepackage{amsthm}
 \usepackage{csquotes}

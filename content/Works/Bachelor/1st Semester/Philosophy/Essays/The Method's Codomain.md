@@ -1,7 +1,8 @@
-I wrote this essay during the [[First Semester]] at the [[University of Constance]] for the seminar on [[Philosophical Method]] by [[Sam Roberts]].
-It is a simple and brief essay, I'm not particularly proud of it. It analyses some basic ideas I had on the structure of a [[Method]]. Some theses on [[Philosophy of Science]] have been briefly and simply exposed, mainly [[W. O. Quine]]'s [[Naturalism]] and basic [[K. Popper]]'s methodology by [[Logik der Forschung]].
-The main idea of the essay is to categorise methods after two basic principles, the field and the type. The former is supposed to be the range over the method is supposed to assert sentences and the second is the kind of sentences the method predicates. The division I made between this two terms has a practical use only since, as declared in the essay, any type could be expressed in the formulation of the field and vice versa, their distinction is practical and fictional.
-``` latex
+I wrote this essay during the #1st_Semester at the #UniKonstanz for the seminar on "Philosophical Method" by [Sam Roberts](https://www.philosophie.uni-konstanz.de/en/ag-leon-horsten/members-of-the-ag-horsten/academic-staff/sam-roberts/).
+#### Abstract
+First I make clear what I mean with the codomain, field and type of a method, in particular using science as an example and considering some assertions by Quine and Popper. I’ll then compare it with what one could regard as the codomain of philosophy. I’ll focus on the reasons why one is reasonably confused when talking about the codomain of philosophy and propose a solution with particular emphasis on its limits and approximations.
+#### $\LaTeX$ code
+``` LaTeX
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}

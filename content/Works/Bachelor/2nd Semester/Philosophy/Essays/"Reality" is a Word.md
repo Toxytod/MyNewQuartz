@@ -1,5 +1,9 @@
-I wrote this essay during the [[First Semester]] at the [[University of Constance]] for the seminar [[Realität]]. It is connected to [[The Frequency of Telling Stories]], the only interesting part are the last two sections. Here is a good digression on the same theme:
-### LaTeX
+I wrote this essay during the #1st_Semester at the #UniKonstanz for the seminar Reality. It is connected to [[The Frequency of Telling Stories]].
+#### Abstract
+In the first section I briefly quote Descartes' and Putnam’s standpoint with the purpose of presenting both the classical and contemporary variation of similar attempts. I present them together with their affirmed and admittedly conclusive counter-argument so that I can exclude them from my proposal of giving a linguistic meaning to "reality".
+
+In the second and third section I bring instead some arguments of my own: in the former I deny the possibility of using any sort of empiricist or scientific approach by assuming in the discourse the Quinean maxim "no entity without identity". In this way I show how it looks likely that conceptions of reality must be, in a way, linguistic.
+#### $\LaTeX$ code
 ``` LaTeX
 \documentclass{article}
 \usepackage{amsthm}

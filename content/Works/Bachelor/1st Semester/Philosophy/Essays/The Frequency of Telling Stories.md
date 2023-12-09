@@ -1,7 +1,7 @@
-I wrote this essay in the [[1st Semester]] in the University of Constance for the course on S. Kripke by [L. Horsten](https://www.philosophie.uni-konstanz.de/horsten/leon-horsten/).
-Mark: 1.7
-![[The_Frequency_of_Telling_Stories__Kripke_.pdf]]
-##### $\LaTeX$ code
+I wrote this essay in the #1st_Semester in the #UniKonstanz  for the course on S. Kripke by [L. Horsten](https://www.philosophie.uni-konstanz.de/horsten/leon-horsten/). [[The_Frequency_of_Telling_Stories__Kripke_.pdf]]
+#### Abstract
+Starting from the considerations by Frege and agreeing with the edits by Kripke, I briefly present the crucial points in the debate on a subject referring to itself and, even more importantly, the way a subject has to understand someone else talking about itself. The second section exposes a slight edit on Kripke's way of understanding the use of  "I" in conversations and the similar case of referencing to qualia and indexicals. In conclusion I examine the implication such a theory has on terms like "actual world" or "scientific language".
+#### $\LaTeX$ code
 ```LaTeX
 \documentclass{article}
 \usepackage{amsthm}

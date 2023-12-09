@@ -2,11 +2,9 @@
 title: Simone Testino
 draft: false
 ---
-In this page you can find both external links, like [Google](https://www.google.com), or internal links, like [[Simone Testino]], explore those pages by clicking on the links. Here you find my presentation and the most relevant links. For any issue or question on the website or its content, here you find my [[Contacts]].
+In this page you can find both external links, like [Google](https://www.google.com), or internal links, like [[Index of all Works]], explore those pages by clicking on the links. To visualise connections between pages, use the graph view either on the right or at the bottom of the page. On this page you find my presentation and the most relevant links. For any issue or question on the website or its content, here you find my [[Contacts]].
 
-I currently am a student in the BA Philosophy and BSc. Mathematics at the [LMU](https://www.lmu.de/en/) in Munich. 
-
-For a brief overview on my academic life, here you find my [[Curriculum_Vitae.pdf]], for a more detailed dive here you find an [[Index of all Works]] comprehending all of my university essays together with some other writings, in particular see: [[Thesis Home]]. I also uploaded further relevant [[Documents]]. For an overview on my person, scroll down on this page.
+I currently am a student in the BA Philosophy and BSc. Mathematics at the [LMU](https://www.lmu.de/en/) in Munich. For a brief overview on my academic life, here you find my [[Curriculum_Vitae.pdf]], for a more detailed dive here you find an [[Index of all Works]] comprehending all of my university essays together with some other writings, in particular see: [[Thesis Home]]. For an overview on my person, scroll down on this page.
 ### School Years
 After school I moved to Switzerland by my father, I went to [Liceo Vermigli](http://liceo-vermigli.com/), an Italian private school in Zurich. For various reasons, I preferred to go to the swiss cantonal school, therefore I improved my German, from A1 to B2.
 
@@ -24,6 +22,6 @@ I recently also started to spend little time on my entrepreneurship project: [[T
 
 
 
-Last update: 5th December.
+Last update: 9th December.
 
 

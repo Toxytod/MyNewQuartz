@@ -1,7 +1,9 @@
-I wrote this Hausarbeit in the [[First Semester]] at the [[University of Constance]] for the course on [[Paradoxes: truth, infinity and time travel]] by [[Sam Roberts]].
-This has been the first big and complex text I wrote and therefore went by a difficult process: I almost completely changed the structure and the core idea of the article. Because of all these important changes, the hausarbeit has no satisfacting structure and the core and final idea could have been expressed way better.
-The aim of the hausarbeit is to solve a [[Paradox]] through the fact that the contradiction doesn't take place in the truth value of actual senteces but instead in the [[Knowledge]] of the subject. That allows me to claim that if the subject does't _know_ then no contradiction takes place. At this stage the subject is easily allowed to create a subsubject, whose knowledge is a subset of his own, and there no contradiction takes place anymore. Since the subject has no reason to desire contradiction and is allowed to be his own subsubject, he'll necessarily choose to be it and therefore avoid contradiction. This procedure could be further generalised and fomalised, though more bases of [[Formalised Epistemology]] would be needed.
-``` latex
+I wrote this essay in the #1st_Semester at the #UniKonstanz for the course on "Paradoxes: truth, infinity and time travel" by [Sam Roberts](https://www.philosophie.uni-konstanz.de/en/ag-leon-horsten/members-of-the-ag-horsten/academic-staff/sam-roberts/).
+This has been the first big and complex text I wrote and therefore went by a difficult process: I almost completely changed the structure and the core idea of the article. Because of all these important changes, the essay has no satisfactory structure and the core and final idea could have been expressed way better.
+#### Abstract
+Quine in an article on paradoxes examines quickly what he calls a \enquote{Supposed Antinomy}, though I see it as being a really proper one and solved too quickly by Quine. This essay will give that solution and will then analyse the epistemological and metalogical implications of there being no classical straight way to solve it. Then I'll take this paradox as an example, to show how urgent is the need of a logic able to formalise such situations. 
+#### $\LaTeX$ code
+``` LaTeX
 \documentclass{article}
 \usepackage[english]{babel}
 \usepackage{amsthm}

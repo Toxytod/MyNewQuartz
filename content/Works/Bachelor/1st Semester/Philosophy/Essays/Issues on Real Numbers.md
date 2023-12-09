@@ -1,7 +1,10 @@
-I wrote thi essay during the [[First Semester]] at the [[University of Constance]] for the seminar on [[Paradoxes: truth, infinity and time travel]] by [[Sam Roberts]].
-This is the idea I regard as most fruitful I produced in [[Philosophy of Mathematics]] so far and regards the [[Knowledge]] we are allowed to have on [[Real Numbers]]. Starting by the article by [[L. Horsten]]: [[Vom Zählen zu den Zahlen]], which gives a context on the epistemology we have on the [[Natural Numbers]], I argue that we may need some further assumption in order to ground the knowledge we claim to have on real numbers. The knowledge on natural numbers, trough solution of polynomials, is able to ground our knowledge up to the [[Algebraic Numbers]] though not reals.
-This idea is, in my opinion, not just connected by identical or, maybe, the philosophcical ground for [[Point Free Geometry]], on which [[Whitehead]] seems to have written [Point Free Geometry](https://www.google.it/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjY7M2t17b-AhVM_aQKHeLeDz8QFnoECA8QAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWhitehead%2527s_point-free_geometry&usg=AOvVaw0331EaNLaFDeSqyWx_kMt0), which, for fun, I'll call [[Pointless Geometry]]. This is a field that I'd really like to know more about, in particular on the philosophical point of view and afterwards on the actual maths.
-I also regard this idea to be close enough to [[Intuitionism]], since both tend to give a more concrete [[Epistemological Account of Mathematics]], on which I'd really like to reason and write more.
+I wrote thi essay during the #1st_Semester  at the #UniKonstanz for the seminar on "Paradoxes: truth, infinity and time travel" by [Sam Roberts](https://www.philosophie.uni-konstanz.de/en/ag-leon-horsten/members-of-the-ag-horsten/academic-staff/sam-roberts/).
+
+Further related topics I want to check:
+- [Wikipedia: Point Free Geometry](https://en.wikipedia.org/wiki/Whitehead%27s_point-free_geometry)
+#### Abstract
+A comparison of the real numbers with the Kantian noumenon will show important similarities between their roles in the epistemological debate. I’ll then analyse the implications of such a conclusion together with Naturalism by Quine. I’ll then connect this point with the concept of randomness and its possible forms in mathematics, this will then show how we should shape the concept we have in mind of real numbers.
+#### $\LaTeX$ code
 ``` LaTeX
 \documentclass{article}
 \usepackage{amsthm}

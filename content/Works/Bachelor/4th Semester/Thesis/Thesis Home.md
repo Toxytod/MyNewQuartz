@@ -6,12 +6,7 @@ The available material is divided in the [[Philosophy Thesis]] and [[Mathematics
 
 More bureaucratic details, $\LaTeX$ sources, references and further material is available in the [[Appendix of the Thesis]].
 #### Feedback
-In case you want to leave any kind of feedback, feel free to edit the following $\LaTeX$ document, in case you want to edit one of the linked documents, just copy the source code and edit it in one of the following files. In case you find some of them non-empty, then please open an empty one; I will check, answer and make them empty again once in a while. Don't forget to leave your contacts, so that I can thank and answer you! In case you want to share any other sort of data, check [[Contacts]]. Here are the links:
+In case you want to leave any kind of feedback, feel free to edit one of the following $\LaTeX$ documents, in case you want to edit one of the documents linked above, just copy the source code and edit it in one of the following files. In case you find some of them non-empty, then please open an empty one; I will check, answer and make them empty again once in a while. Don't forget to leave your contacts, so that I can thank and answer you! In case you want to share any other sort of data, check [[Contacts]]. Here are the links:
 - [Overleaf: Feedback 1](https://www.overleaf.com/3292847547dscyqddmvcrq#712359)
 - [Overleaf: Feedback 2](https://www.overleaf.com/2551776745snqjmggnpdwk#cb1232)
 - [Overleaf: Feedback 3](https://www.overleaf.com/3913882163rdndzdgtknmk#ce2c6b)
-
-
-
-
-Last update: 5th December.

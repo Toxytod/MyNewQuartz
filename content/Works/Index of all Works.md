@@ -1,23 +1,27 @@
 Here one finds connections to my works, first I list some that I enjoyed most and which I consider being the most important. After that a full list in a thematic division follows and then one in chronological order.
 
 Here one can also find the list of all completed courses together with marks and details on how they are counted for the final mark at the LMU: [[Marks LMU.pdf]], for more see: [[Documents]].
-#### By Relevance
+#### Most Relevant
 - [[Thesis Home]]
+- [[Horsten, L. (2010), Having an Interpretation]]
 - [[The Frequency of Telling Stories]]
 - [[Nonsense in a Phenomenal Subject]]
 - [[Indeterminacy in the Mind-World Relationship]]
-## Thematic Index
-### Mathematics
+# Thematic Index
+## Mathematics
 #### Algebra
 - [[Linear Algebra II (Lecture)]]
 #### Logic
+- [[Mathematics Thesis]]
 - [[Model Theory (Lecture)]]
 #### Set Theory
 - [[Advanced Set Theory (Lecture)]]
 #### Analysis
 - [[Analysis II (Lecture)]]
-### Philosophy
+## Philosophy
 #### Metaphysics
+- [[Philosophy Thesis]]
+- [[Horsten, L. (2010), Having an Interpretation]]
 - [[Indeterminacy in the Mind-World Relationship]]
 - [["Reality" is a Word]]
 - [[Realism&Causality]]
@@ -35,12 +39,11 @@ Here one can also find the list of all completed courses together with marks and
 #### Philosophy of Language
 - [[The Frequency of Telling Stories]]
 - [[On Models and Worlds]]
-#### Practical Philosophy
 #### History of Philosophy
 - [[An Historical Discourse on Phenomenological Platonism]]
 - [[From the ἕν to the Universe of Sets]]
-## Chronological Index
-#### 1st Semester
+# Chronological Index
+### 1st Semester
 ##### Mathematics
 Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 ##### Philosophy
@@ -51,7 +54,7 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 - [[The Frequency of Telling Stories]]
 - [[The Method's Codomain]]
 - [[The Structure of the Perceived]]
-#### 2nd Semester
+### 2nd Semester
 ##### Mathematics
 - [[Linear Algebra II (Lecture)]]
 - [[Analysis II (Lecture)]]
@@ -65,10 +68,13 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 - [[From the ἕν to the Universe of Sets]]
 - [[Nonsense in a Phenomenal Subject]]
 - [[Realism&Causality]]
-#### 3rd Semester
+### 3rd Semester
 ##### Mathematics
+- [[Mathematics Thesis]]
 ##### Philosophy
-
-#### 4th Semester
+- [[Philosophy Thesis]]
+- [[Horsten, L. (2010), Having an Interpretation]]
+- [[On Models and Worlds]]
+### 4th Semester
 ##### Mathematics
 ##### Philosophy

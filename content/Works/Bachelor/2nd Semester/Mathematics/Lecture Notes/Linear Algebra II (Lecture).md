@@ -1,4 +1,4 @@
-Second course in #Linear_Algebra hold by Reinhard Racke at the #UniKonstanz during the #2nd_Semester.
+Hold by Prof. Matheusz Michałek at the #UniKonstanz during the #2nd_Semester.
 ## Recap
 ### 11
 #### 11.1 Scalar Prod
@@ -25,7 +25,7 @@ Second course in #Linear_Algebra hold by Reinhard Racke at the #UniKonstanz duri
 - $a$ maximal element in $B$ $\Leftrightarrow b \in B \land \lnot \exists_{c \in B} b \prec c$.
 - A chain of $A$ is a totally ordered subset of $A$
 - Zorn's Lemma: let $(A, \preceq)$ s.t. any chain in $A$ has an $ub$ then $A$ has a maximal element.
-- Cor. every vectorspace has a basis & every ideal is contained in a maximal ideal
+- Cor. every vectorspace has a basis & every ideal is contained in a maximal ideal.
 ### 13
 #### 13.1 Dualspace
 - $V^* := Hom(V, \mathbb{K})$, dualbasis $v_i^*(v_i)=1$ and all the rest to $0$.

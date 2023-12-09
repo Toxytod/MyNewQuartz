@@ -1,7 +1,11 @@
-I wrote this essay during the [[First Semester]] at the [[University of Constance]] for the course on [[Gödel]]by [[L. Horsten]]. I couldn't have this essay correceted by the professor since it was a Master course and, as I discovered after having written the essay, I wasn't actually allowed to be there. Though the coruse some unorganised knowledge on what is the metaphysical and, generally, philosophical structure that Gödel built.
-In this essay I argue against Gödel without much actual convinction of my statements since, probably, I just missed the point Gödel wanted to make. What [[A Prioiri]] and [[A Posteriori]] are supposed to mean by Gödel is still very unclear to me, though, as I exposed, a reasonable interpretation (i.e. using the tradictional, kantian, interpretation of the terms) shows how the quotation by Gödel appears as nonsense. I pretend here to split the knowledge we have between what can be ackowledged a priori or a posteriori contrarily to what Gödel does.
-The most interesting, and therefore less deeply explored, section is the one regarding [[Proof Theory]]. I should read the book [[QED: Fenomenologia della Dimostrazione]] by [[Gabriele Lolli]].
-``` latex
+I wrote this essay during the #1st_Semester at the #UniKonstanz  for the course on Gödel by Prof. Horsten. I couldn't have this essay corrected by the professor since it was a Master course and, as I discovered after having written the essay and followed all lectures, I wasn't actually allowed to be there.
+
+In this essay I argue against Gödel without much actual convinction of my statements since, probably, I just missed the point Gödel wanted to make. What "a prioiri" and "a posteriori" are supposed to mean for Gödel is still very unclear to me, though, as I exposed, a reasonable interpretation (i.e. using the tradictional, Kantian, interpretation of the terms) shows how the quotation by Gödel appears as nonsense. 
+#### Abstract
+Starting from a quote by Gödel on the necessary coexistence of an a priori and an empirical access point on every notion, I underline the essential problems such a point of view implies. First I present reasons why one shouldn’t need any vagueness in defining a priori and a posteriori predicates, then I examine the single examples Gödel writes, conducting most of them onto one core concept, which I then analyse and deny, with a particular stress (and disagreement) on the example concerning mathematics.
+
+#### $\LaTeX$ code
+``` LaTeX
 \documentclass{article}
 \usepackage{amsthm}
 \usepackage{csquotes}
@@ -18,7 +22,7 @@ The most interesting, and therefore less deeply explored, section is the one reg
 \maketitle
 
 \begin{abstract}
-    Starting from a quote by Gödel on the necessary coexistence of an a priori and an empirical access point on every notion, I underline the essential problems such a point of view implies. First I present reasons why one shouldn’t need any vagueness in defining a priori and a posteriori predicates, then I examine the single examples Gödel writes, conducting most of them onto one core concept, then I analyse and deny it, with a particular stress (and disagreement) on the example concerning mathematics.
+    Starting from a quote by Gödel on the necessary coexistence of an a priori and an empirical access point on every notion, I underline the essential problems such a point of view implies. First I present reasons why one shouldn’t need any vagueness in defining a priori and a posteriori predicates, then I examine the single examples Gödel writes, conducting most of them onto one core concept, which I then analyse and deny, with a particular stress (and disagreement) on the example concerning mathematics.
 \end{abstract}
 
 \section{Introduction into a Priori and a Posteriori}
