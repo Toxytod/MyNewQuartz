@@ -1,6 +1,5 @@
 I wrote this essay during the #1st_Semester at the #UniKonstanz  for the course on Gödel by Prof. Horsten. I couldn't have this essay corrected by the professor since it was a Master course and, as I discovered after having written the essay and followed all lectures, I wasn't actually allowed to be there.
 
-In this essay I argue against Gödel without much actual convinction of my statements since, probably, I just missed the point Gödel wanted to make. What "a prioiri" and "a posteriori" are supposed to mean for Gödel is still very unclear to me, though, as I exposed, a reasonable interpretation (i.e. using the tradictional, Kantian, interpretation of the terms) shows how the quotation by Gödel appears as nonsense. 
 #### Abstract
 Starting from a quote by Gödel on the necessary coexistence of an a priori and an empirical access point on every notion, I underline the essential problems such a point of view implies. First I present reasons why one shouldn’t need any vagueness in defining a priori and a posteriori predicates, then I examine the single examples Gödel writes, conducting most of them onto one core concept, which I then analyse and deny, with a particular stress (and disagreement) on the example concerning mathematics.
 

@@ -25,6 +25,7 @@ Here one can also find the list of all completed courses together with marks and
 - [[Indeterminacy in the Mind-World Relationship]]
 - [["Reality" is a Word]]
 - [[Realism&Causality]]
+- [[Categorical Equivalence in Structuralism]]
 #### Epistemology
 - [[A Priori's Division of Knowledge]]
 - [[On the Subsubject]]
@@ -36,6 +37,7 @@ Here one can also find the list of all completed courses together with marks and
 - [[Probability of CH, to Pascal]]
 #### Philosophy of Science
 - [[The Method's Codomain]]
+- [[Unobservables in Structuralism]]
 #### Philosophy of Language
 - [[The Frequency of Telling Stories]]
 - [[On Models and Worlds]]
@@ -75,6 +77,8 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 - [[Philosophy Thesis]]
 - [[Horsten, L. (2010), Having an Interpretation]]
 - [[On Models and Worlds]]
+- [[Categorical Equivalence in Structuralism]]
+- [[Unobservables in Structuralism]]
 ### 4th Semester
 ##### Mathematics
 ##### Philosophy
