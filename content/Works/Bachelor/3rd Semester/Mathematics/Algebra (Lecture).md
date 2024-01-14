@@ -1,0 +1,156 @@
+I collect here some of the notes of the lecture on Algebra I followed in the #3rd_Semester at the #LMU held by [A. Rosenschon](https://www.mathematik.uni-muenchen.de/~axr/).
+
+## Recap
+### Elementary Group Theory
+Most of theorems of this section were present already in [[Linear Algebra II (Lecture)]]. I will write a list of theorems and definitions anyway before the exam.
+### Rings and Polynomials
+Most of these theorems are present in [[Linear Algebra II (Lecture)]] already, though I list some of them here again:
+- **Rings and Polynomial Rings in one Variable**
+	- def. of Ring: for a group $(R, +)$ with $e = 0$ and a monoid $(R, \cdot)$ with $e = 1$ it holds $(a + b)c = ac + ab$ and $c(a + b = ca + cb)$. It is comm. if $ab = ba$.
+		- if $0 = 1$, then $R = \{0\}$
+	- $R^\times = \{a \in R | \exists_{b \in R} ab = ba = 1\}$, $(R^\times, \cdot_{R})$ is a group.
+	- For $(R_i)_{i \in I}$ a family of rings, $\prod_{i \in I} R_i$ is ring with component-wise $+$ and $\cdot$.
+	- $R[X] \simeq (R^{(\mathbb{N})}, +_{R^\omega}, \cdot_{R^\omega})$
+		- $R^{(\mathbb{N})} = \{(a_i)_{i \in I} : \forall_{i \in I}a_i \in R \land |\{a_i \in (a_i)_{i \in I} : a_i \not = 0\}| < \aleph_0\}$ with $+$ and $\cdot$ from $R^\omega$. 2.2-2.3
+	- $grad(f) = max\{i |: a_i \not = 0\}$
+		- $grad(f + g) \le max\{grad(f), grad(g)\}$, $grad(fg) \le grad(f) + grad(g)$.
+- **Ideal**
+	- def. ideal $I \subset R$ s.t. $(I, +_R)$ subgroup of $(R, +)$ and $\forall_{r \in R} \forall_{i \in I}ra = ar \in I$
+	- def. generator $(a_j)_{j \in J}$, if $I = \sum_{x \in X} Ra_i$, principle ideal if $|(a_j)_{j \in J}| < \aleph_0$.
+	- 2.14: $p$ prime Ideal if $\forall_{a, b \in R} ab \in p \rightarrow (a \in p \lor b \in p)$, $m$ max. ideal if all ideals $I$, $\forall_{I \subset R} m \subseteq I \subseteq R \rightarrow (I = m \lor I = R)$. 
+	- 2.15: $R$ comm., $I \subsetneq R$ prime iff $R/ I$ is ID. $I \subsetneq R$ max. ideal iff $R/m$ is a field.
+		- $I$ max. $\Rightarrow$ I prime. $p \mathbb{Z}$ max. iff $p$ prime.
+- **Rings-homomorphisms and Factor-rings**
+	- def hom. $\varphi: R \rightarrow S$ s.t. (i) $\varphi(a +_R b) = \varphi(a) +_S \varphi(b)$, (ii) $\varphi(ab) = \varphi(a)\varphi(b)$, (iii) $\varphi(1_R) = \varphi(1_S)$.
+		- $ker(\varphi)$ is an ideal, $im(\varphi)$ is a subr., $\varphi$ determines a gr. hom. $R^\times \rightarrow S^\times$. $ker(\varphi) = 0 \Rightarrow \varphi$ inj.
+	- ==Homomorphiesatz==
+	- ==Chinese Restsatz==
+- **Prime Factorisation**
+	- def. let $\delta : R \setminus \{0\} \rightarrow \mathbb{N}$ s.t.  $a, b \in R$, $b \not = 0$ there is $q, r \in R$ s.t. $a = qb + r$ where $\delta(r) > \delta (g) \lor r = 0$, then $R$ is eucl. ring and $\delta$ a norm. 2.17
+	- $R$ eucl $\Rightarrow R$ PID
+	- $p \in R \setminus R^\times$  irr. if $\forall_{x, y \in R} p = xy \rightarrow x \in R^\times \lor y \in R^\times$
+	- $p \in R \setminus R^\times$ prime if $\forall_{x, y \in R} p|xy \rightarrow p|x \lor p|y$
+	- (i) $(p)$ max. $\Rightarrow p$ prime, (ii) $p$ prime $\Rightarrow p$ irr. (iii) $R$ PID: $p$ irr. $\Leftrightarrow p$ prime $\Leftrightarrow (p)$  max. 2.20
+	- $R$ PID, $0 \not = a \in R \setminus R^\times$, then $a = p_1 \cdot p_2 \cdot ... \cdot p_n$. unique up to order and mult. with units. 2.22
+	- def Fact. Ring: $\forall_{0 \not = a \in R \setminus R^\times}$ if (i) $a = p_1 \cdot p_2 \cdot ... \cdot p_n$ **or** (ii) $a = i_1 \cdot i_2 \cdot ... \cdot i_m$ irr elem. 2.23
+		- $R$ Fact. Ring $p$ prime $\Leftrightarrow p$ irr.
+		- $R$ eucl. $\Rightarrow R$ PID $\Rightarrow$ $R$ Fact Ring
+		- $ggT(x_1, ..., x_n) = \prod_{p \in \mathbb{P}} p^{min\{v_p(x_1), ..., v_p(x_n)\}}$ 
+		- $(x_1, ..., x_n) = (d) \Rightarrow d = ggT(x_1, ..., x_n)$, $(x_1) \cap ... \cap (x_n) = (v) \Rightarrow v = kgV(x_1, ..., x_n)$
+			- in an $ID$ there could be no $ggT$ bc not every ideal is principal. 2.26
+- **Roots of Polynomials**
+	- $K$ a field $grad(f) = n \ge 0$ then $f$ has max. $n$ roots, exactly $n$ if $f = \prod^n_{i = 1}(X- a_i) \in K[X]$.
+	- $f \in K[X]$, $f(\alpha)= 0$, then $\alpha$ mult. root $\Leftrightarrow f'(\alpha) = 0 \Leftrightarrow ggT(f, f')(\alpha) = 0$.
+	- $M = R \times R \setminus \{0\} = \{(a, b) : a, b \in R \land b \not = 0\}$, $(a, b) \sim (a', b') \Leftrightarrow ab' = a'b$, with the fraction operation define the the quotient field, called $Q(R)$. 2.28 Also $\frac{a}{b} = \epsilon \prod_{p \in P} p^{v_p(x)}$.
+	- $v_p(f) := min \{v_p(c_i): i \in \mathbb{N}\}$,  (Gauss-lemma) $R$ fact. Ring $v_p(fg ) = v_p(f) + v_p(g)$.
+	- (Gauss) $R$ fact. $\Rightarrow R[X]$ fact.: $q \in R[X]$ pr. $\Leftrightarrow q \in R$ pr. $\lor (q$ primitive in $R[X] \land$ prime in $Q(R)[X]$.
+		- $R$ fact. $q$ primitive in $R[X]$: $q$ irr in $R[X] \Leftrightarrow q$ irr. in $Q(R)[X]$.
+	- **Irreducibility Criteria** for $R$ fac. ring with quotientfield and $f$ primitive.
+		- (Eisenstein) $f = \sum_{i = 0}^n a_iX^i$ primitive, $grad(f) > 0$ and there is $p$ prime in $R$, s.t. $\lnot p | a_n$, $\forall_{0 \le i < n}p | a_i$, $\lnot p^2 | a_0$, then $f$ irr. in $R[X]$. 2.34
+		- (Red. mod. $p$) $p \in R$, $0 \not = f = \sum_{i = 0}^n a_i X^i \in R[X]$ s.t. $\lnot p | a_n$ and $\pi: R[X] \rightarrow (R/(p))[X], \sum_{i = 0}^n a_iX^i \mapsto \sum^n_{i = 0}\overline{a_i}X^i$ for $\overline{a_i}:= a + (p)$. If $\pi(f)$ irr. then $f$ irr in Q(R)[X], if $f$ also primitive, then $f$ irr. in $R[X]$. 2.35
+### Algebraic Field Extensions
+- **Characteristic**
+	- def. for $R$ ID $\varphi: Z \rightarrow R, n \mapsto n \cdot 1_R$, for $p \in \mathbb{N}$ s.t. $(p) = ker(\varphi)$ then $char(R) = p$.
+	- def. prime field $P=\bigcap\{L : L \subseteq K$ subfield$\} \subseteq K$, smallest subfield of $K$.
+		- (i) $char(K) = p > 0 \Leftrightarrow P \simeq \mathbb{F}_p$, (ii) $char(K) = 0 \Leftrightarrow P \simeq \mathbb{Q}$.
+			- (iii) any field contains some $\mathbb{F}_p$ or a $\mathbb{Q}$ up to isomorphism.
+- **Field-Extentions**
+	- $L/K$ f.ex. if $K$ is a subfield of $L$. Note that $L$ is a $K$-VS.
+		- $[L:K] = dim_K (L)$
+			- $[L:K] = [L:E][E:K]$
+				- $[L: K] \in \mathbb{P} \Rightarrow K = E \lor E = L$
+	- $L/K$, $\alpha \in L$ algebraic on $K$ if $f \in K[X]$ s.t. $f(\alpha) = 0$. $L/K$ alg. if all $\alpha \in L$ is alg. 
+		- $\varphi_\alpha : K[X] \rightarrow L, g \mapsto g(\alpha)$, $\alpha$ alg. on $K$ iff $ker(\varphi_\alpha) \not = \{0\}$.
+		- $\alpha \in L$ alg., ex! $f \in K[X]$ s.t. (i) norm., (ii) $ker(\varphi_\alpha) = (f)$, then $(f)$ prime, $f$ min. of $\alpha$
+			- $f$ is the min. poly. of $\alpha$ if it is normed, irr. and has $\alpha$ as a root.
+		- All finite extensions are algebraic. 3.7
+	- $K[\alpha] = im(\varphi_\alpha)$, $f$ min of $\alpha$ then $K[X]/ker(\varphi_\alpha) \cong K[\alpha] \subseteq L$, obv: $[K[\alpha]:K] = deg(f)$. 3.8
+	- $L/K$ fin. gen. if $L = K(\alpha_1, ..., \alpha_n)$ for some $\alpha$s.
+		- if $\alpha$s alg. in $L$: (i) $K[\alpha_1, ..., \alpha_n] = K(\alpha_1, ..., \alpha_n)$, (ii) $L/K$ finite (alg. = fin. gen = finite) 3.11
+		- $K \subseteq E \subseteq L$, $\alpha$ alg. on $E$, $E/K$ alg.: (i) $\alpha$ alg. on $K$, (ii) $L/K$ alg. $\Leftrightarrow L/E$, $E/K$ alg. 3.12
+- **Algebraic Closure**
+	- (Kronecker) for $K$ field and $f \in K[X]$, there is $L/K$ s.t. $\exists_{\alpha \in L}f(\alpha) = 0$.
+		- $f = g(X - \alpha) \in L[X]$, then after less than $deg(f)$ steps $f$ is red in lin. fact. $L_n$ 3.14
+	- $K$ alg. cl. if all non-const $f \in K[X]$ have a root, i.e. $f = c \prod^n_{i = 1}(X - \alpha) \in K[X]$, $deg(f) = n$, 3.15
+		- $K$ alg. cl. $\Rightarrow |K| \ge \aleph_0$
+		- $K$ alg. cl. $\Rightarrow$ ($L$ alg. cl $\rightarrow$ $L = K$)
+		- each $K$ has an alg. closure $\overline{K}$. 3.17
+	- Let $L$ field, $\sigma : K \rightarrow L$ hom., $f \in K[X]$ min of $\alpha$,  $\sigma' : K(\alpha) \rightarrow L$ s.t. $\sigma'|_K = \sigma$:
+		- (a): $f^\sigma \in L[X] \land f^\sigma(\sigma'(\alpha) = 0$
+		- (b): for $\beta \in L$, $f^\sigma(\beta) = 0$, then $\sigma'$ s.t. $\sigma'(\alpha) = \beta$ is unique.
+		- $|\{\sigma':\}| = |\{\alpha: f^\sigma(\alpha = 0\}| \le deg(f^\sigma) = deg(f)$ 3.18
+	- For $K'$ alg ex of $K$, $\sigma: K \rightarrow \overline{K}$:
+		- (a): $\sigma'$ s.t. $\sigma': K' \rightarrow \overline{K}$ and $\sigma'|_K = \sigma$ exists
+		- (b): if $K'$ alg. cl and $\overline{K}/\sigma(K)$ alg. then $\sigma'$ is an isom.
+	- If $\overline{K}$, $\overline{K'}$ alg. cl. and ext. of $K$ and $\sigma = id_K$, then $\sigma' : \overline{K} \rightarrow \overline{K'}$ ex. and is isom. 3.20
+- **Splitting Fields**
+	- $K$ field, $(f_i)_{i \in I} \subset K[X]$, $L$ is called spl.fi. if (i) any $f_i$ splits in lin. factors, (ii) $L = K[\alpha_1, ..., \alpha_n]$ roots of $f_i$s. $L/K$ is then called normal.
+	- spl.fi. of $f \in K[X]$ is $K[\alpha_1, ..., \alpha_n]$ for $\alpha$s the roots fo $f$. For more polynomials, let $f = f_1 \cdot ... \cdot f_m$.
+	- (Compactness) let $L$ be spl.fi. of $(f_i)_{i \in I}$ for $I = \aleph_0$, let $\mathcal{J}: = \{J: J \subsetneq I \land |J| < \aleph_0\}$ and $A_J = \{\alpha : \exists_{f_j \in J} f_j(\alpha) = 0\}$, $L = \bigcup_{J \in \mathcal{J}} K(A_J)$. 3.31.iii
+	- Every two spl.fi. of the same polynomials are isomorphic.
+	- $K$ fi., $K \subseteq L$ alg. ex. tfae:
+		- $L/K$ norm.
+		- irr. $f \in K[X]$ s.t. $\exists_{\alpha \in L}f(\alpha) = 0$ splits in lin. fact.
+		- $\sigma: L \rightarrow \overline{L}$ defines a $K$-autom. of $L$.
+	- $[L:K] = 2 \Rightarrow L/K$ norm.
+	- $N$ normal closure of alg. ext. $L/K$ s.t. (i) $L \subseteq N$ alg., (ii) $N/K$ norm., (iii) $N$ minimal. 3.25
+		- $L/K$ alg. then:
+			- unique up to isom normal closure $N/K$
+			- $L/K$ finite $\Rightarrow N/K$ finite
+			- if $M/L$ alg., $M/K$ norm. then ex. norm. cl. $N$ of $L/K$ s.t. $L \subseteq N \subseteq M$, $K = (\{\sigma_i(L)\ i \in I\})$ for $(\sigma_i)_{i \in I}$ $K$-hom. $\sigma_i : L \rightarrow M$. $N$ is unique as a subfi. of $M$. 3.25
+-  **Separable Field Extensions**
+	- $f \in K[X]$ sep. if $f$ has no mult. root in $\overline{K}$
+	- $\alpha \in \overline{K}$ is mult. root of $f \in K[X] \Leftrightarrow ggt(f, f')(\alpha) = 0$
+	- $f \in K[X]$ irr. $\Rightarrow (f$ has mult. root in $\overline{K} \Leftrightarrow f ' = 0)$ 3.26
+	- $char(K)= 0 \land f \in K[X]$ irr. $\Rightarrow f$ sep.
+	- $char(K) = p \in\mathbb{P}\setminus\{0\}$:
+		- $f' = 0 \Leftrightarrow \exists_{g \in K[X]} f = g(X^p)$ 
+		- (Frobenius) $\forall_{a, b \in K} (a + b)^p = a^p + b^p$, $F: K \rightarrow K, a \mapsto a^p$ inj., $|K| < \aleph_0 \Rightarrow F$ aut.
+	- $|K| < \aleph_0 \land f \in K[X]$ irr. $\Rightarrow f$ sep.
+	- Defs: 3.28
+		- $L/K$ alg., $\alpha \in L$ sep. over $K$ if for $f \in K[X]$ sep. $f(\alpha) = 0$
+		- $L/K$ alg. is sep. if any $\alpha \in L$ sep. over $K$.
+		- $K$ perfect if all $L/K$ alg. are sep.
+			- (i) $char(K) = 0 \Rightarrow K$ perf., (ii) $|K| < \aleph_0 \Rightarrow K$ perf.
+	- $L/K$ alg. sep.deg. is $[L:K]_s := |Hom_K(L, \overline{K})|$, for $Hom_K(L, \overline{K})$ set of $K$-hom. 3.30
+		- $L/K$ norm. $\Rightarrow [L:K] = |Aut_K(L)| = |Hom_K(L, \overline{K}) = [L, K]_s$, see [[Algebra (Lecture)#Galois Theory]].
+	- $K(\alpha)/K$, $f \in K[X]$ min of $\alpha$ then
+		- $[L:K]_s = |\{\beta \in \overline{K} : f(\beta) = 0\}|$
+		- $\alpha$ sep. over $K \Leftrightarrow [L:K]_s = [L:K]$
+		- if $char(K) = p \in \mathbb{P} \setminus\{0\}$ and mult. of $\alpha$ in $f$ is $p^r$, then $[L:K] = p^r[L:K]_s$
+	- $k \subseteq E \subseteq L$ alg. ext., $[L:K]_s = [L:E]_s[E:K]_s$
+		- $char(K) = 0 \Rightarrow [L:K] = [L:K]_s$; $char(K) \in \mathbb{P} \setminus \{0\} \Rightarrow \exists_{r \i n\mathbb{N}} [L:K] = p^r [L:K]_s$
+		- always: $[L:K]_s | [L:K]$
+	- $L/K$ fin.: $L/K$ sep. $\Leftrightarrow$ $L = K(\alpha_1, ..., \alpha_n)$ for $\alpha_1, ..., \alpha_n \in L$ sep. over $K \Leftrightarrow [L:K]_s = [L:K]$
+	- $L/K$ alg., let $\mathcal{A} \subseteq L$ s.t. $K(\mathcal{A}) = L$: $L/K$ sep. $\Leftrightarrow$ any $\alpha \in \mathcal{A}$ sep. over $K \Rightarrow [L:K]_s = [L:K]$.
+	- if $E/K$, $L/E$ alg. then $L/K$ sep. $\Leftrightarrow L/E$, $E/K$ sep. 3.35
+- **Theorem of the Primitive Element**: $L/K$ fin. sep. ext. $\Rightarrow \exists_{\alpha \in L}L = K(\alpha)$. Also $\alpha$ is primitive to $L/K$.
+- **Finite Fields**
+	- For $p^n$, $p \in \mathbb{P}$, ex. unique up to isom. $\mathbb{F}$ s.t. $|\mathbb{F}| = p^n$.
+		- For $\mathbb{F}_{p^n}$ is spli.fi. of $X^{p^n}-X \in \mathbb{F}_p[X]$
+		- $\mathbb{F}_p \subseteq \mathbb{F}_{p^n} \subseteq \overline{\mathbb{F}_p}$ holds, hence $\mathbb{F}_p \subseteq \mathbb{F}_{p^n}  \subseteq \mathbb{F}_{p^m} \subseteq \overline{\mathbb{F}_p} \Leftrightarrow n |m$
+			- extensions $\mathbb{F}_{p^n} \subseteq \mathbb{F}_{p^m}$ are the only extensions of finite fields with char. $p$.
+### Galois Theory
+- $L/K$ is gal. $:= L/K$ norm. and sep., a gal. gr. $Gal(L/K) = Aut_K(L)$, [[Algebra (Lecture)#Galois Examples]].
+	- $L/K$ normal, then:
+		- recall: $L/K$ norm. $\Rightarrow Hom(L, \overline{K}) = Aut_K(L)$ 3.23.c
+		- $|Aut_K(L)| = |Hom_K(L, \overline{K})| = [L : K]_s \le [L: K]$
+	- $L/K$ separable, then:
+		- ($\Leftrightarrow$) $|Aut_K(L) = [L : K]$
+	- $L/K$ gal. $\Leftrightarrow |Gal(L/K)| = [L:K]$
+	- $L/K$ gal. fin. $\Rightarrow L= K(\alpha_1, ..., \alpha_n) = K[\alpha_1, ...,\alpha_n]$, for $\sigma \in Gal(L/K)$ is uniq. def. by  $\sigma(\alpha_1), ..., \sigma(\alpha_n)$.
+	- $f \in K[X]$, root $\alpha \in L$, $\sigma \in Gal(L/K) \Rightarrow f(\sigma(\alpha))= 0$
+		- $0 = f(\alpha) \sum^n_{i = 0}a_i \alpha^i \in L$, $0 = \sigma(0) = \sigma(f(\alpha)) = \sigma(\sum^n_{i = 0}a_i \alpha^i) = \sum^n_{i = 0}a_i \sigma(\alpha^i) = f(\sigma(\alpha))$.
+	- $L/K$ gal., $K \subseteq E \subseteq L$: 
+		- (i) $L/E$ gal., $Gal(L/E) \subseteq Gal(L/K)$ subgr. 
+		- (ii) if $E/K$ gal. $\Rightarrow Gal(L/K) \rightarrow Gal(E/K), \sigma \mapsto \sigma|_E$ is surj. hom. 4.4
+	- $L$ field, $G \subseteq Aut(L)$, then $K:=L^G := \{a \in L | \forall_{\sigma \in G}\sigma(a) = a\}$ (fixkö.):
+		- (i) $|G|< \aleph_0 \Rightarrow (L/L^G$ gal. $\land G = Gal(L/L^G)$
+		- (ii) $|G| \ge \aleph_0 \land L/K$ alg. $\Rightarrow  L/K$ gal. $\land G \subseteq Gal(L/K)$ subgr.
+##### Examples
+For [[Algebra (Lecture)#Galois Theory]] I decided to write down some of the examples too, I collect them here:
+###### Galois Examples
+- (a). $L = \mathbb{Q}(\sqrt{p})$, $K = \mathbb{Q}$, since $f = x^2 -p \in \mathbb{Q}[X]$ hence norm., $char(\mathbb{Q}) = 0 \Rightarrow L/K$ sep. Also $[L:K] = 2 \Rightarrow |Gal(L/K)| = 2 \Rightarrow Gal(L/K) \cong \mathbb{Z}_2$, elem. in $Gal(L/K)$ premute roots ($\pm \sqrt{p}$) of $f$, i.e. $\sqrt{p} \mapsto \sqrt{p}$ and $\sqrt{p} \mapsto -\sqrt{p}$ (uniq. def. by $\alpha$s)
+- (b). $f = (x^2 -2)(x^2 - 3) \in \mathbb{Q}[X]$ has zer. kö. $\mathbb{Q}[\sqrt{2}, \sqrt{3}] = L$, $[L:\mathbb{Q}] = 4$. $L/K$ is gal., $\Rightarrow |Gal(L/\mathbb{Q})| = [L: \mathbb{Q}] = 4$. Elements perm. roots, (22:33, 2-2:33, 22:3-3, 2-2:3-3), $Gal(L/K) = \{id, \sigma, \tau, \sigma\tau\} \cong \mathbb{Z}_2 \times \mathbb{Z}_2$.
+- (c) $f = x^3 -2 \in \mathbb{Q}[X]$, let $\omega$ s.t. $\omega^2 + \omega + 1 = 0$, roots of $f$ is $\{\sqrt[3]{2}, \sqrt[3]{2}\omega, \sqrt[3]{2}\omega^2\}$, $L = \mathbb{Q}(\sqrt[3]{2}, \omega)$ is zer.kö. of $f$, $[L: \mathbb{Q}] = 6$, $Gal(L/\mathbb{Q})$ prem. the roots, hence $Gal(L/\mathbb{Q}) = S_3$ (smallest non-abelian), gal. gr. must not be abelian. The extension between, $[\mathbb{Q}(\sqrt[3]{2}): \mathbb{Q}] = 3$, $\mathbb{Q}(\sqrt[3]{2} \subset \mathbb{R}$, $\sigma(\sqrt[3]{2}) \in \mathbb{R}$ hence $\sigma(\sqrt[3]{2}) = \sqrt[3]{2}$, hence $|Gal(\mathbb{Q}(\sqrt[3]{2}) /\mathbb{Q})| = 1 \not = 3 = [\mathbb{Q}(\sqrt[3]{2}): \mathbb{Q}]$, hence it is not a gal. ext.
+- $p \in \mathbb{P}$, $r, n \in \mathbb{N}\setminus \{0\}$, $q = p^r$, $q\ = p^{rn}$, $\mathbb{F}_p \subseteq \mathbb{F}_q \subseteq \mathbb{F}_q' \subseteq \overline{\mathbb{F}_p}$ and $\mathbb{F}_q \subseteq \mathbb{F}_{q'}$ sep. ($\Leftarrow$ finite), (norm. $\Leftarrow \mathbb{F}_q'$ zer.kö. for $X^q - X \in \mathbb{F}_q[X]$) $\Rightarrow |Gal(\mathbb{F}_{q'}/\mathbb{F}_q)| = n$, see script for conclusion.

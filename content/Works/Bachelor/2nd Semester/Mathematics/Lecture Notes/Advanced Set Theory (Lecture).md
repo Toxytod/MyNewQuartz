@@ -1,7 +1,4 @@
 Course on #Set_Theory, and based on [Kunen Set Theory](https://fa.ewi.tudelft.nl/~hart/onderwijs/set_theory/Jech/Kunen-1980-Set_Theory.pdf). It was hold by Hazel Brickhill at the #UniKonstanz during my #2nd_Semester.
-
-# Lecture Notes
-
 ## 1st Lecture: Intro
 
 - 1878 the [[Continuum Hypothesis]] has been stated by [[G. Cantor]]

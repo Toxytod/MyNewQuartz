@@ -1,3 +1,3 @@
 This page will contain the essay for the course in Category theory for the Working Philosopher by [J. Dougherty](https://www.mcmp.philosophie.uni-muenchen.de/people/faculty/dougherty_john/index.html). In this essay I wish to analyse the proposals presented in:
 - Weatherall, J. O. (2020), _Why Not Categorical Equivalence?_ [ArXiv](https://arxiv.org/pdf/1812.00943.pdf).
- - Battert, T. W., Halvorson, H. (2015), _Morita Equivalence_ [ArXiv](https://arxiv.org/pdf/1506.04675.pdf).
+- Battert, T. W., Halvorson, H. (2015), _Morita Equivalence_ [ArXiv](https://arxiv.org/pdf/1506.04675.pdf).

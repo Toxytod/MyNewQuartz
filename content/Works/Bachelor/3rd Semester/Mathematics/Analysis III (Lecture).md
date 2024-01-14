@@ -1,0 +1,1 @@
+This is a course by [Prof. Leeb](https://www.mathematik.uni-muenchen.de/~leeb/) during my #3rd_Semester at the #LMU. I studied most of the topics of these course already in [[Analysis II (Lecture)]], though I found that this course has a more topological and foundational focus. Here I upload a brief recap of the topics presented in class.

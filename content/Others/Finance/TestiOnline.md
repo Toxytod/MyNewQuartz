@@ -56,14 +56,24 @@ I first need to state questions precisely in a PDF document, below you find the 
 I need to consider among the expenses (see [[TestiOnline#Foreseeable Expenses]]) the necessity to hire a Commercialista from when I start accepting transaction since there might be complicated financial and administrative issues with taxes and registrations.
 #### Step 2. The Website
 Making the right website will require at most the following three components:
-##### Guide and Introductory Website
-%%Just like a Blog, in Quartz.%%
+##### 2.I Guide and Introductory Website
+The main website for the customer will be the done on [Quartz 4.0](https://quartz.jzhao.xyz/) just like this page. It will be only for introducing the customer to how to buy and sell codes of books and some other useful promotional pages. The following are pages I plan to insert to this website:
 ###### Guide to Buy&Sell
 ###### Cheapest
-##### iPad Advises
-##### Payment Platform 
+Explain why this is the cheapest option:
+- the only cheaper option than the new one for the online codes
+- even cheaper than used books
+- the costs iPad + codes will still be cheaper than used books
+###### iPad Advises
+- a brief guide on the cheapest options there are
+###### Greenest
+Briefly show why this option is the greenest of all available, both new and used books.
+##### 2.II Payment Platform & Code-Checker
+The Payment Platform will only need to process purchases using many of the different payment methods available, e.g. consider [Satispay](https://www.satispay.com/en-it/) and PayPal.
 
-##### Backend Database
+The Code-Checker needs to be a program able to check whether a given code has been already used or not. I want it to have as an input a code and an editor (of the options below) and as an output whether the code is valid and, if yes, if it has been used already. This information should be checkable from the websites of the respective editors. The algorithm should work for all the following editors:
+- 
+##### 2.III Database
 
 ##### Technical Issues
 ###### Check Codes Validity

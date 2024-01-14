@@ -5,8 +5,6 @@ Here one can also find the list of all completed courses together with marks and
 - [[Thesis Home]]
 - [[Horsten, L. (2010), Having an Interpretation]]
 - [[The Frequency of Telling Stories]]
-- [[Nonsense in a Phenomenal Subject]]
-- [[Indeterminacy in the Mind-World Relationship]]
 # Thematic Index
 ## Mathematics
 #### Algebra
@@ -14,6 +12,7 @@ Here one can also find the list of all completed courses together with marks and
 #### Logic
 - [[Mathematics Thesis]]
 - [[Model Theory (Lecture)]]
+- [[Constructive Analysis (Lecture)]]
 #### Set Theory
 - [[Advanced Set Theory (Lecture)]]
 #### Analysis
@@ -30,11 +29,9 @@ Here one can also find the list of all completed courses together with marks and
 - [[A Priori's Division of Knowledge]]
 - [[On the Subsubject]]
 - [[The Structure of the Perceived]]
-- [[A Brief Attempt to Define Knwoledge]]
 - [[Nonsense in a Phenomenal Subject]]
 #### Philosophy of Mathematics
 - [[Issues on Real Numbers]]
-- [[Probability of CH, to Pascal]]
 #### Philosophy of Science
 - [[The Method's Codomain]]
 - [[Unobservables in Structuralism]]
@@ -72,13 +69,17 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 - [[Realism&Causality]]
 ### 3rd Semester
 ##### Mathematics
-- [[Mathematics Thesis]]
+- [[Constructive Analysis (Lecture)]]
+- [[Algebra (Lecture)]]
+- [[Analysis III (Lecture)]]
+- [[Programming II (Lecture)]]
 ##### Philosophy
-- [[Philosophy Thesis]]
 - [[Horsten, L. (2010), Having an Interpretation]]
 - [[On Models and Worlds]]
 - [[Categorical Equivalence in Structuralism]]
 - [[Unobservables in Structuralism]]
 ### 4th Semester
 ##### Mathematics
+- [[Mathematics Thesis]]
 ##### Philosophy
+- [[Philosophy Thesis]]

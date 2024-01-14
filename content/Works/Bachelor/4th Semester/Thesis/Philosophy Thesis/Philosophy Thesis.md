@@ -8,12 +8,11 @@ To read further on the topic, visit:
 - [[Structuralism]]
 - [[On Models and Worlds]]
 - [[Horsten, L. (2010), Having an Interpretation]]
-
 ### Modal Realism
-For this section I will mainly refer to [SEP](https://plato.stanford.edu/entries/david-lewis/#6) section 6, I plan to only expose the Lewis' argument and show compatibility with [[Philosophy Thesis#Possible Worlds as Mathematical Models]]. I plan to start working on this section later on.
+For this section I will mainly refer to [SEP](https://plato.stanford.edu/entries/david-lewis/#6) section 6, I plan to only expose the Lewis' argument and show compatibility with Structuralism. I plan to start working on this section later on.
 
 Live updates on this part are to be found here: [Overleaf: Modal Realism](https://www.overleaf.com/read/fnzgwxcvmnyd#250a05).
 ### On Ultraproducts
-This section will be dedicated to why I regard that ultraproducts of possible worlds are to be regarded as possible worlds as well. I will then analyse the single ultraproducts constructed in [[Mathematics Thesis]] and show what philosophical consequence they imply. This part of the philosophical thesis will most probably the last one that I will start
+This section will be dedicated to why I believe that ultraproducts of possible worlds must be considered possible worlds as well. I will then analyse the single ultraproducts constructed in [[Mathematics Thesis]] and show what philosophical consequence they imply. I will work on this last part of the philosophy thesis as soon as I have some results in the mathematics thesis, this will be therefore the very last part I will begin.
 
 Live updates on this part are to be found here: [Overleaf: Ultraproducts](https://www.overleaf.com/read/fnzgwxcvmnyd#250a05).

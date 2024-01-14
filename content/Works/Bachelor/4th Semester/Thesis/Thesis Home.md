@@ -4,7 +4,7 @@ I begin giving arguments for two ground assumptions: first that possible worlds,
 ### Structure
 The available material is divided in the [[Philosophy Thesis]] and [[Mathematics Thesis]]. The former contains more details on the broad structure of the argument and the assumptions, the latter concerns particular ultraproduct structures. Once the mathematical results are fixed, I will proceed by philosophically analysing the consequences of treating those structures as possible worlds.
 
-More bureaucratic details, $\LaTeX$ sources, references and further material is available in the [[Appendix of the Thesis]].
+More bureaucratic details, $\LaTeX$ sources, references and names of possible supervisors are available in the [[Appendix of the Thesis]].
 #### Feedback
 In case you want to leave any kind of feedback, feel free to edit one of the following $\LaTeX$ documents, in case you want to edit one of the documents linked above, just copy the source code and edit it in one of the following files. In case you find some of them non-empty, then please open an empty one; I will check, answer and make them empty again once in a while. Don't forget to leave your contacts, so that I can thank and answer you! In case you want to share any other sort of data, check [[Contacts]]. Here are the links:
 - [Overleaf: Feedback 1](https://www.overleaf.com/3292847547dscyqddmvcrq#712359)
