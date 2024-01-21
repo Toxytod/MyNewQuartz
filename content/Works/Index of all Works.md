@@ -9,6 +9,7 @@ Here one can also find the list of all completed courses together with marks and
 ## Mathematics
 #### Algebra
 - [[Linear Algebra II (Lecture)]]
+- [[Algebra (Lecture)]]
 #### Logic
 - [[Mathematics Thesis]]
 - [[Model Theory (Lecture)]]
@@ -17,6 +18,7 @@ Here one can also find the list of all completed courses together with marks and
 - [[Advanced Set Theory (Lecture)]]
 #### Analysis
 - [[Analysis II (Lecture)]]
+- [[Analysis III (Lecture)]]
 ## Philosophy
 #### Metaphysics
 - [[Philosophy Thesis]]
@@ -25,6 +27,7 @@ Here one can also find the list of all completed courses together with marks and
 - [["Reality" is a Word]]
 - [[Realism&Causality]]
 - [[Categorical Equivalence in Structuralism]]
+- [[Paradoxes of Perspective (Tutorial)]]
 #### Epistemology
 - [[A Priori's Division of Knowledge]]
 - [[On the Subsubject]]
@@ -62,8 +65,6 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 ##### Philosophy
 - [["Reality" is a Word]]
 - [[An Historical Discourse on Phenomenological Platonism]]
-- [[A Brief Attempt to Define Knwoledge]]
-- [[Probability of CH, to Pascal]]
 - [[From the ἕν to the Universe of Sets]]
 - [[Nonsense in a Phenomenal Subject]]
 - [[Realism&Causality]]
@@ -83,3 +84,4 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 - [[Mathematics Thesis]]
 ##### Philosophy
 - [[Philosophy Thesis]]
+- [[Paradoxes of Perspective (Tutorial)]]

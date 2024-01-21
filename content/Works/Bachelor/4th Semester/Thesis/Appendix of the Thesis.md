@@ -12,7 +12,7 @@ The high amount of courses (see [[3rd Semester]]) prevents me to work at any int
 ##### Break
 During the break I will have more time though I will not be able to discuss the material and ideas with the supervisors, therefore I want to have as many technical (hence mathematical) details cleared as possible. In this way I will spend the break on the more philosophical part of the material and want to write the introduction.
 ##### Fourth Semester
-During the fourth semester I foresee having fewer courses than in the third semester (see [[4th Semester]]) and will therefore spend most of it working on the thesis. Also, I plan to present some of the topics of the thesis in the Student Tutorial (see [[Student Tutorial Application]]) which will help be to give a more didactical form to my thesis.
+During the fourth semester I foresee having fewer courses than in the third semester (see [[4th Semester]]) and will therefore spend most of it working on the thesis. Also, I plan to present some of the topics of the thesis in the Student Tutorial (see [[Paradoxes of Perspective (Tutorial)]]) which will help be to give a more didactical form to my thesis.
 ### Supervisors
 Since my thesis is in both the Mathematics and Philosophy department I will need a supervisor for each of the involved departments.
 

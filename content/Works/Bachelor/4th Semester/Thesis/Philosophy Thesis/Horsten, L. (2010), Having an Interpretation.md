@@ -8,5 +8,5 @@ I divide the document into two sections, in the first I argue against some these
 
 #### Related Pages
 - [[Philosophy Thesis]]
-- [[Structuralism]]
+- [[Works/Bachelor/4th Semester/Thesis/Philosophy Thesis/Structuralism]]
 - [[On Models and Worlds]]

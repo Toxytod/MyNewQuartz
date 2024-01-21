@@ -1,5 +1,4 @@
 I collect here some of the notes of the lecture on Algebra I followed in the #3rd_Semester at the #LMU held by [A. Rosenschon](https://www.mathematik.uni-muenchen.de/~axr/).
-
 ## Recap
 ### Elementary Group Theory
 Most of theorems of this section were present already in [[Linear Algebra II (Lecture)]]. I will write a list of theorems and definitions anyway before the exam.
@@ -101,10 +100,10 @@ Most of these theorems are present in [[Linear Algebra II (Lecture)]] already, t
 -  **Separable Field Extensions**
 	- $f \in K[X]$ sep. if $f$ has no mult. root in $\overline{K}$
 	- $\alpha \in \overline{K}$ is mult. root of $f \in K[X] \Leftrightarrow ggt(f, f')(\alpha) = 0$
-	- $f \in K[X]$ irr. $\Rightarrow (f$ has mult. root in $\overline{K} \Leftrightarrow f ' = 0)$ 3.26
+	- $f \in K[X]$ irr. $\Rightarrow (f$ not sep. in $\overline{K} \Leftrightarrow f ' = 0)$ 3.26
 	- $char(K)= 0 \land f \in K[X]$ irr. $\Rightarrow f$ sep.
 	- $char(K) = p \in\mathbb{P}\setminus\{0\}$:
-		- $f' = 0 \Leftrightarrow \exists_{g \in K[X]} f = g(X^p)$ 
+		- $f$ not sep. $\Leftrightarrow f' = 0 \Leftrightarrow \exists_{g \in K[X]} f = g(X^p)$ ($deg(g) = \frac{deg(f)}{p} \Rightarrow K(a^p) \subsetneq K(a)$)
 		- (Frobenius) $\forall_{a, b \in K} (a + b)^p = a^p + b^p$, $F: K \rightarrow K, a \mapsto a^p$ inj., $|K| < \aleph_0 \Rightarrow F$ aut.
 	- $|K| < \aleph_0 \land f \in K[X]$ irr. $\Rightarrow f$ sep.
 	- Defs: 3.28
@@ -136,17 +135,37 @@ Most of these theorems are present in [[Linear Algebra II (Lecture)]] already, t
 		- recall: $L/K$ norm. $\Rightarrow Hom(L, \overline{K}) = Aut_K(L)$ 3.23.c
 		- $|Aut_K(L)| = |Hom_K(L, \overline{K})| = [L : K]_s \le [L: K]$
 	- $L/K$ separable, then:
-		- ($\Leftrightarrow$) $|Aut_K(L) = [L : K]$
+		- ($\Leftrightarrow$) $|Aut_K(L)| = [L : K]$
 	- $L/K$ gal. $\Leftrightarrow |Gal(L/K)| = [L:K]$
 	- $L/K$ gal. fin. $\Rightarrow L= K(\alpha_1, ..., \alpha_n) = K[\alpha_1, ...,\alpha_n]$, for $\sigma \in Gal(L/K)$ is uniq. def. by  $\sigma(\alpha_1), ..., \sigma(\alpha_n)$.
 	- $f \in K[X]$, root $\alpha \in L$, $\sigma \in Gal(L/K) \Rightarrow f(\sigma(\alpha))= 0$
 		- $0 = f(\alpha) \sum^n_{i = 0}a_i \alpha^i \in L$, $0 = \sigma(0) = \sigma(f(\alpha)) = \sigma(\sum^n_{i = 0}a_i \alpha^i) = \sum^n_{i = 0}a_i \sigma(\alpha^i) = f(\sigma(\alpha))$.
 	- $L/K$ gal., $K \subseteq E \subseteq L$: 
 		- (i) $L/E$ gal., $Gal(L/E) \subseteq Gal(L/K)$ subgr. 
-		- (ii) if $E/K$ gal. $\Rightarrow Gal(L/K) \rightarrow Gal(E/K), \sigma \mapsto \sigma|_E$ is surj. hom. 4.4
-	- $L$ field, $G \subseteq Aut(L)$, then $K:=L^G := \{a \in L | \forall_{\sigma \in G}\sigma(a) = a\}$ (fixkö.):
+		- (ii) if $E/K$ gal. $\Rightarrow Gal(L/K) \rightarrow Gal(E/K), \sigma \mapsto \sigma|_E$ is surj. hom.
+	- $L$ field, $G \subseteq Aut(L)$, then $L^G := \{a \in L | \forall_{\sigma \in G}\sigma(a) = a\}$ (fixkö. of $G$): 4.4
 		- (i) $|G|< \aleph_0 \Rightarrow (L/L^G$ gal. $\land G = Gal(L/L^G)$
-		- (ii) $|G| \ge \aleph_0 \land L/K$ alg. $\Rightarrow  L/K$ gal. $\land G \subseteq Gal(L/K)$ subgr.
+		- (ii) $|G| \ge \aleph_0 \land L/L^G$ alg. $\Rightarrow  L/L^G$ gal. $\land G \subseteq Gal(L/L^G)$ subgr.
+	- $L/K$ norm.: 4.5
+		- (i) $L/L^{Aut_K(L)}$ gal. $\land Gal(L/L^{Aut_K(L)}) = Aut_K(L)$
+		- (ii) if $L/K$ sep. then $K = L^{Aut_K(L)}$
+	- for $\psi: E \mapsto Gal(L/E)$, $\phi: H \mapsto L^H$, then $\phi \circ \psi = id$
+	- (Gal.-Cor.) $L/K$ gal., $L^H/K$ norm. ($\Rightarrow$ gal.) $\Leftrightarrow H \trianglelefteq G$ $\Rightarrow H = ker(Gal(L/K) \rightarrow Gal(L^H/K), \sigma \mapsto \sigma|_{L^H})$ 4.6
+		- if $L/K$ fin. sep. then $|\{K': K \subseteq K' \subseteq L\}| < \aleph_0$
+			- if also $N/K$ norm.cl. then $N/K$ fin. gal. and $[N:K] = |Gal(N/K)| < \aleph_0$.
+	- for $f_n := x^n -1 \in K[X]$ for $n \in \mathbb{N}\setminus \{0\}$
+		- $U_n := \{\alpha \in \overline{K}: \alpha^n = 1\}$ subgr. of $\overline{K}^\times$, $U_n$ cycl. by 3.27
+		- $\lnot char(K) | n \Rightarrow |U_n| = n \land U_n \cong Z/(n)$.
+			- if $\lnot char(K) | n$ then $x^n -1 \not = 0 \land (x^n -1)' = nx^{n-1} \not = 0$ hence $f_n$ sep. and $|U_n| = n$
+			- also for $\zeta$ primitive $U_n = \{1,\zeta, ..., \zeta^{n-1}\}$, $K[\zeta]/K$ is spl.fi. of $x^n -1$
+		- if $p = char(K) | n$, $n = p^rm$, $\lnot p | m$ then $x^m -1$ sep. and since $x^n -1 = (x^n-1)^{p^r}$, $x^n-1$ and $x^m -1$ share all roots.
+		- $\varphi: \mathbb{N} \setminus \{0\} \rightarrow \mathbb{N}, n \mapsto |\{m : 1 \le m \le n \land gcd(m, n) = 1\}| = |\{$gen, of $Z/(n)\}|$ (Euler-$\varphi$-F.)
+			- $\varphi(1) = 1, \varphi(2) = 1, \varphi(3) = 2$ 
+			- $gcd(m, n) = 1 \Rightarrow \varphi(m \cdot n) = \varphi(m) \cdot \varphi(n)$
+			- $n = p_1^{v_1} \cdot ... \cdot p_r^{v_r}$ for $v_i > 0$ $\Rightarrow \varphi(n) = \prod_{i = 1}^r p_i^{v_1 -1}$
+			- $n = \sum_{d | n \land d > 0} \varphi(d)$
+		- XX 4.11
+			- for all $n \in \mathbb{N}$, $\Phi_n \in \mathbb{Q}[X]$ is irr.
 ##### Examples
 For [[Algebra (Lecture)#Galois Theory]] I decided to write down some of the examples too, I collect them here:
 ###### Galois Examples
@@ -154,3 +173,5 @@ For [[Algebra (Lecture)#Galois Theory]] I decided to write down some of the exam
 - (b). $f = (x^2 -2)(x^2 - 3) \in \mathbb{Q}[X]$ has zer. kö. $\mathbb{Q}[\sqrt{2}, \sqrt{3}] = L$, $[L:\mathbb{Q}] = 4$. $L/K$ is gal., $\Rightarrow |Gal(L/\mathbb{Q})| = [L: \mathbb{Q}] = 4$. Elements perm. roots, (22:33, 2-2:33, 22:3-3, 2-2:3-3), $Gal(L/K) = \{id, \sigma, \tau, \sigma\tau\} \cong \mathbb{Z}_2 \times \mathbb{Z}_2$.
 - (c) $f = x^3 -2 \in \mathbb{Q}[X]$, let $\omega$ s.t. $\omega^2 + \omega + 1 = 0$, roots of $f$ is $\{\sqrt[3]{2}, \sqrt[3]{2}\omega, \sqrt[3]{2}\omega^2\}$, $L = \mathbb{Q}(\sqrt[3]{2}, \omega)$ is zer.kö. of $f$, $[L: \mathbb{Q}] = 6$, $Gal(L/\mathbb{Q})$ prem. the roots, hence $Gal(L/\mathbb{Q}) = S_3$ (smallest non-abelian), gal. gr. must not be abelian. The extension between, $[\mathbb{Q}(\sqrt[3]{2}): \mathbb{Q}] = 3$, $\mathbb{Q}(\sqrt[3]{2} \subset \mathbb{R}$, $\sigma(\sqrt[3]{2}) \in \mathbb{R}$ hence $\sigma(\sqrt[3]{2}) = \sqrt[3]{2}$, hence $|Gal(\mathbb{Q}(\sqrt[3]{2}) /\mathbb{Q})| = 1 \not = 3 = [\mathbb{Q}(\sqrt[3]{2}): \mathbb{Q}]$, hence it is not a gal. ext.
 - $p \in \mathbb{P}$, $r, n \in \mathbb{N}\setminus \{0\}$, $q = p^r$, $q\ = p^{rn}$, $\mathbb{F}_p \subseteq \mathbb{F}_q \subseteq \mathbb{F}_q' \subseteq \overline{\mathbb{F}_p}$ and $\mathbb{F}_q \subseteq \mathbb{F}_{q'}$ sep. ($\Leftarrow$ finite), (norm. $\Leftarrow \mathbb{F}_q'$ zer.kö. for $X^q - X \in \mathbb{F}_q[X]$) $\Rightarrow |Gal(\mathbb{F}_{q'}/\mathbb{F}_q)| = n$, see script for conclusion.
+###### Galois Correspondence Examples
+- (a) $L = \mathbb{Q}(\sqrt{2}, \sqrt{3})/\mathbb{Q}$ is gal. and $Gal(L/\mathbb{Q}) = \{id, \sigma, \tau, \sigma\tau\}$ as in [[Algebra (Lecture)#Galois Examples]] (b). For the other examples, see the script.

@@ -1,11 +1,11 @@
 There are two main assumptions that are required for my argument, here I give a more precise statement of both and present the content that will be part of the thesis.
 ## Structuralism
-I follow from the Tarskian definition of truth the necessity of considering possible worlds as mathematical models. This argument will be expanded in [[Structuralism]], this page contains the references to the essay(s) in Philosophy of Logic regarding the same theme but also further considerations that will be part of the thesis only. In [[Horsten, L. (2010), Having an Interpretation]] I expended the discourse in relation to the debate on fixing reference, the model theoretic argument and the interpretation of our language. I also uploaded a list of references I will consult when writing this section of the thesis.
+I follow from the Tarskian definition of truth the necessity of considering possible worlds as mathematical models. This argument will be expanded in [[Works/Bachelor/4th Semester/Thesis/Philosophy Thesis/Structuralism]], this page contains the references to the essay(s) in Philosophy of Logic regarding the same theme but also further considerations that will be part of the thesis only. In [[Horsten, L. (2010), Having an Interpretation]] I expended the discourse in relation to the debate on fixing reference, the model theoretic argument and the interpretation of our language. I also uploaded a list of references I will consult when writing this section of the thesis.
 #### Abstract
 The Tarskian definition of logical consequence requires us to consider models within the same formal system of any proposition that we want to prove true. I then expose how the Tarskian Truth definition applied to any sort of empirical sentence requires an analysis of the formal system of possible worlds, considered as structures. I proceed by analysing the form of structuralism required for the theory to work and its implications.
 
 To read further on the topic, visit:
-- [[Structuralism]]
+- [[Works/Bachelor/4th Semester/Thesis/Philosophy Thesis/Structuralism]]
 - [[On Models and Worlds]]
 - [[Horsten, L. (2010), Having an Interpretation]]
 ### Modal Realism

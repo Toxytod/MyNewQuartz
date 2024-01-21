@@ -1,16 +1,16 @@
 Course on #Set_Theory, and based on [Kunen Set Theory](https://fa.ewi.tudelft.nl/~hart/onderwijs/set_theory/Jech/Kunen-1980-Set_Theory.pdf). It was hold by Hazel Brickhill at the #UniKonstanz during my #2nd_Semester.
 ## 1st Lecture: Intro
 
-- 1878 the [[Continuum Hypothesis]] has been stated by [[G. Cantor]]
-- 1900 ca. [[D. Hilbert]] points for the century, [[ZFC]] has been formulated and [[K. Gödel]] proved his [[Incompleateness Theorems]]
-- 1940 [[K. Gödel]] proved $ZFC \not \vdash \lnot CH$
-- 1963 [[P. Cohen]] proved $ZFC \not \vdash CH$
+- 1878 the Continuum Hypothesis has been stated by G. Cantor
+- 1900 ca. D. Hilbert points for the century, ZFC has been formulated and K. Gödel] proved his Incompleateness Theorems
+- 1940 K. Gödel proved $ZFC \not \vdash \lnot CH$
+- 1963 P. Cohen proved $ZFC \not \vdash CH$
 
-We will focus more on the proof by Cohen, since it uses the method called [[Forcing]] which will be of our interest during the course. First, let's examine a couple of ways which would seem to work but because of Gödel [[Second Incompleateness Theorem]], namely that $T \not \vdash con(T)$ for a given theory $T$:
+We will focus more on the proof by Cohen, since it uses the method called Forcing which will be of our interest during the course. First, let's examine a couple of ways which would seem to work but because of Gödel Second Incompleateness Theorem, namely that $T \not \vdash con(T)$ for a given theory $T$:
 
-- $ZFC \vdash (ZFC \not \vdash CH)$ but in order to do that you need $ZFC \vdash con(ZFC)$ which goes against the [[Second Incompleateness Theorem]].
+- $ZFC \vdash (ZFC \not \vdash CH)$ but in order to do that you need $ZFC \vdash con(ZFC)$ which goes against the Second Incompleateness Theorem.
 
-- Alternatively: $ZFC \not \vdash CH \leftrightarrow con(ZFC + \lnot CH)$, then you get $ZFC \vdash con(ZFC)$ which does against the [[Second Incompleateness Theorem]].
+- Alternatively: $ZFC \not \vdash CH \leftrightarrow con(ZFC + \lnot CH)$, then you get $ZFC \vdash con(ZFC)$ which does against the Second Incompleateness Theorem.
 
 On the other hand, we might: $con(ZFC) \Rightarrow con(ZFC + \lnot CH)$ which seems to be doable for both proofs.
 
@@ -38,7 +38,7 @@ since the other connectives can be defined through these, there's no need to wri
 
 - $(\forall_x\phi (x))_W := \forall_x (x \in W \rightarrow \phi_W(x))$
 
-For every formula $\phi$ in $\mathcal{L}_\epsilon$ there exists an $\phi_W$. Though, not always if a formula holds in a theory its relativization to a certain set must hold as well. For example we saw that the [[Axiom of Extentionality]]: $\forall_x \forall_y(\forall_z(z\in x \leftrightarrow z\in y) \rightarrow x = y)$ on the set $W:= \{\emptyset,\{\{\emptyset\}\}\}$ doesn't hold. It holds iff. the set $W$ is transitive, *def.* $W$ is transitive iff. $(x \in W \land y \in x) \rightarrow y \in W$; to see more, look at [[Advanced Set Theory (Lecture)#Relativising Axioms]].
+For every formula $\phi$ in $\mathcal{L}_\epsilon$ there exists an $\phi_W$. Though, not always if a formula holds in a theory its relativization to a certain set must hold as well. For example we saw that the Axiom of Extentionality: $\forall_x \forall_y(\forall_z(z\in x \leftrightarrow z\in y) \rightarrow x = y)$ on the set $W:= \{\emptyset,\{\{\emptyset\}\}\}$ doesn't hold. It holds iff. the set $W$ is transitive, *def.* $W$ is transitive iff. $(x \in W \land y \in x) \rightarrow y \in W$; to see more, look at [[Advanced Set Theory (Lecture)#Relativising Axioms]].
 
 Remember that what we want to show when relativising is that for $\phi$ and $\phi_W$ it holds that:$${((W, \epsilon) \models \phi) \Leftrightarrow \phi_W}$$**Comulative Hierarchy**: we denote, as in [Wikipedia](https://en.wikipedia.org/wiki/Von_Neumann_universe), with $V_\alpha$ for an ordinal $\alpha$ the set defined by recursion as: (K. writes it as $R(\alpha)$)
 
@@ -476,7 +476,7 @@ Gödel: "The universe of all sets is structurally indefinable."
 
 #### Mostowski Collapsing Lemma
 
-**Definition**: we say that a relation $R$ is extensional on $A$ iff:$$\forall_{x, y \in A}\forall_{z \in A}(zRx \leftrightarrow z Ry) \rightarrow x = y$$Note: the rel. $\in$, by *Ax. of Ext.*, is ext. on $V$, in fact this is the [[Identity]] criterion for sets. (K. III.5.15)
+**Definition**: we say that a relation $R$ is extensional on $A$ iff:$$\forall_{x, y \in A}\forall_{z \in A}(zRx \leftrightarrow z Ry) \rightarrow x = y$$Note: the rel. $\in$, by *Ax. of Ext.*, is ext. on $V$, in fact this is the Identity criterion for sets. (K. III.5.15)
 
 **Theorem**: For $W$, a rel. $R$ on $W$ ext., exists a unique tran. set $M$ and an isom. $\pi:(W, R) \cong (M, \epsilon)$.
 

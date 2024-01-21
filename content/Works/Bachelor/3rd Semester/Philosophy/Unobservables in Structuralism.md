@@ -4,4 +4,4 @@ Related pages:
 - [[Horsten, L. (2010), Having an Interpretation]]
 - [[On Models and Worlds]]
 - [[Categorical Equivalence in Structuralism]]
-- [[Student Tutorial Application]]
+- [[Paradoxes of Perspective (Tutorial)]]
