@@ -1,4 +1,4 @@
-I wrote those notes in response to an essay of a classmates of the class on Philosophy of Logic by A. Marra during the #3rd_Semester at the #LMU. Many of the following passages are related to [[On Models and Worlds]], an introduction on the distinction of object and meta language is present in the [[Mathematics Thesis]].
+I wrote those notes in response to an essay of a classmates of the class on Philosophy of Logic by A. Marra during the #3rd_Semester at the #LMU. Many of the following passages are related to [[The Silent Assumption in Tarskian Semantics]], an introduction on the distinction of object and meta language is present in the [[Mathematics Thesis]].
 ### Definability Issues with "PREM" and "SOLO"
 Here I present an argument of mine against both "PREM" and "SOLO" argument by Russel. What I claim to hold for "PREM", I claim it for "SOLO" too.
 

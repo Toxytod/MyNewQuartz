@@ -9,4 +9,4 @@ I divide the document into two sections, in the first I argue against some these
 #### Related Pages
 - [[Philosophy Thesis]]
 - [[Works/Bachelor/4th Semester/Thesis/Philosophy Thesis/Structuralism]]
-- [[On Models and Worlds]]
+- [[The Silent Assumption in Tarskian Semantics]]

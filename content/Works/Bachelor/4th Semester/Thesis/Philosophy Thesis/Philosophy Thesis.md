@@ -6,7 +6,7 @@ The Tarskian definition of logical consequence requires us to consider models wi
 
 To read further on the topic, visit:
 - [[Works/Bachelor/4th Semester/Thesis/Philosophy Thesis/Structuralism]]
-- [[On Models and Worlds]]
+- [[The Silent Assumption in Tarskian Semantics]]
 - [[Horsten, L. (2010), Having an Interpretation]]
 ### Modal Realism
 For this section I will mainly refer to [SEP](https://plato.stanford.edu/entries/david-lewis/#6) section 6, I plan to only expose the Lewis' argument and show compatibility with Structuralism. I plan to start working on this section later on.

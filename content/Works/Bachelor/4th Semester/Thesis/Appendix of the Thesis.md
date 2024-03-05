@@ -19,4 +19,4 @@ For philosophy I got confirmation from [Dr. Dougherty](https://www.mcmp.philosop
 During the break I will have more time though I will not be able to discuss the material and ideas with the supervisors, therefore I want to have as many technical (hence mathematical) details cleared as possible. In this way I will spend the break on the more philosophical part of the material and want to write the introduction.
 ##### [[4th Semester]]
 I plan to finish the last parts of the thesis, discuss the arguments and their form in with the supervisors and
-present some of the topics of the thesis in the Student Tutorial (see [[Paradoxes of Perspective (Tutorial)]]) which will help be to give a more didactical form to my thesis. Also I am considering to participate to [S2S Talks](https://www.fachschaft.philosophie.uni-muenchen.de/studierende/s2stalks/index.html) to present there my thesis project and hopefully get many constructive feedbacks from other students.
+present some of the topics of the thesis in the [S2S Talks](https://www.fachschaft.philosophie.uni-muenchen.de/studierende/s2stalks/index.html) and hopefully get many constructive feedbacks from other students.

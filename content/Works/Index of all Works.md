@@ -2,7 +2,7 @@ Here one finds connections to my works, first I list some that I enjoyed most an
 
 Here one can also find the list of all completed courses together with marks and details on how they are counted for the final mark at the LMU: [[Marks LMU.pdf]], for more see: [[Documents]].
 #### Most Relevant
-- [[Thesis Home]]
+- [[Bachelor Thesis]]
 - [[Horsten, L. (2010), Having an Interpretation]]
 - [[The Frequency of Telling Stories]]
 # Thematic Index
@@ -26,8 +26,7 @@ Here one can also find the list of all completed courses together with marks and
 - [[Indeterminacy in the Mind-World Relationship]]
 - [["Reality" is a Word]]
 - [[Realism&Causality]]
-- [[Categorical Equivalence in Structuralism]]
-- [[Paradoxes of Perspective (Tutorial)]]
+- [[Structure on Models]]
 #### Epistemology
 - [[A Priori's Division of Knowledge]]
 - [[On the Subsubject]]
@@ -37,13 +36,15 @@ Here one can also find the list of all completed courses together with marks and
 - [[Issues on Real Numbers]]
 #### Philosophy of Science
 - [[The Method's Codomain]]
-- [[Unobservables in Structuralism]]
+- [[Philosophy of Physics (essay)]]
 #### Philosophy of Language
 - [[The Frequency of Telling Stories]]
-- [[On Models and Worlds]]
-#### History of Philosophy
+- [[The Silent Assumption in Tarskian Semantics]]
+#### History of Philosophy & Practical Philosophy
 - [[An Historical Discourse on Phenomenological Platonism]]
 - [[From the ἕν to the Universe of Sets]]
+- [[Modern Philosophy (Lecture)]]
+- [[Political Philosophy (Lecture)]]
 # Chronological Index
 ### 1st Semester
 ##### Mathematics
@@ -76,12 +77,14 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 - [[Programming II (Lecture)]]
 ##### Philosophy
 - [[Horsten, L. (2010), Having an Interpretation]]
-- [[On Models and Worlds]]
-- [[Categorical Equivalence in Structuralism]]
-- [[Unobservables in Structuralism]]
+- [[The Silent Assumption in Tarskian Semantics]]
+- [[Structure on Models]]
+- [[Philosophy of Physics (essay)]]
+- [[Modal Logic (Lecture)]]
+- [[Political Philosophy (Lecture)]]
+- [[Modern Philosophy (Lecture)]]
 ### 4th Semester
 ##### Mathematics
 - [[Mathematics Thesis]]
 ##### Philosophy
 - [[Philosophy Thesis]]
-- [[Paradoxes of Perspective (Tutorial)]]

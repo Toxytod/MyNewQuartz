@@ -1,27 +1,21 @@
-An introductory essay on this topic is available under [[On Models and Worlds]] (mid-term essay in Philosophy of Logic), it will then be elaborated and become an introduction to this part of the [[Philosophy Thesis]]. A more in depth and structured analysis will then be published on this page once the final-term essay has been written (March).
+I focused some of the essays on the debate on semantic and syntactic views on theories, which have been briefly exposed in [[Structure on Models]] and [[Philosophy of Physics (essay)]].
 
 More considerations on structuralism in relation with the notion of interpretation are available under [[Horsten, L. (2010), Having an Interpretation]], the analysis and discussion of the paper by [L. Horsten](https://www.philosophie.uni-konstanz.de/horsten/leon-horsten/).
-
-The table of contents which I plan to follow when writing this part of the thesis is visible here [Overleaf: Structuralism](https://www.overleaf.com/read/ffxmfjnxbkns#10acce).
-
-Related pages
+## Writings
+#### Essays
+- [[Philosophy of Physics (essay)]]
+- [[Structure on Models]]
+- [[The Silent Assumption in Tarskian Semantics]]
 - [[Philosophy Thesis]]
-- [[On Models and Worlds]]
-- [[Horsten_Having_an_Interpretation.pdf]]
-- [[Categorical Equivalence in Structuralism]]
-- [[Unobservables in Structuralism]]
-
-#### References
-To get familiar with the philosophical debate, I consider the following references:
-- Horsten, L. (2021), _Having an Interpretation_, Springer [PDF](https://www.philosophie.uni-konstanz.de/securedl/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDE0NDA2MTksImV4cCI6MTcwMjEzMTgxOSwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW4vcGhpbG9zb3BoaWUvYWctaG9yc3Rlbi9QdWJsaWNhdGlvbnNfTGVvbi9Ib3JzdGVuMjAxMF9IYXZpbmdhbkludGVycHJldGF0aW9uLnBkZiIsInBhZ2UiOjEwODcwNX0.dqyhYTONNT2-jgZ8CFCOhLIqDWKySxOWtNKdWcnFAsM/Horsten2010_HavinganInterpretation.pdf), also see [[Horsten, L. (2010), Having an Interpretation]].
-- van Fraassen, B. (2008), _Scientific representation: Paradoxes of perspective_. Oxford: Oxford University Press.
-	- Other related articles by van Fraassen, whose empirical and ontological structuralism will be at the core of this section of the thesis.
-- Button, T., and Sean Walsh, _Philosophy and Model Theory_ (Oxford, 2018; online edn, Oxford Academic, 24 May 2018), [link](https://doi.org/10.1093/oso/9780198790396.001.0001).
-
-On alternative forms of structuralism (also see [[Categorical Equivalence in Structuralism]]):
- - Weatherall, J. O. (2020), _Why Not Categorical Equivalence?_ [ArXiv](https://arxiv.org/pdf/1812.00943.pdf).
- - Battert, T. W., Halvorson, H. (2015), _Morita Equivalence_ [ArXiv](https://arxiv.org/pdf/1506.04675.pdf).
-
-And against van Fraassen's semantic view:
-- Halvorson, H. (2013), _The semantic view, if plausible, is syntactic_ [link](http://philsci-archive.pitt.edu/9625/1/reply%2Dglymour.pdf).
-- Halvorson, H. (2012), _What Scientific Theories Could Not Be_ [link](https://www.jstor.org/stable/10.1086/664745).
+#### Papers
+Here I list both the papers I read on the topic and those I plan to read in the near future.
+###### Already Read
+- [[Halvorson, H. (2012), What Scientific Theories Could not Be]]
+- [[Halvorson, H. (2013), The semantic view, if plausible, is syntactic]]
+- [[Horsten, L. (2010), Having an Interpretation]]
+###### Left to Read
+- [[Hans Halvorson]]
+	- [Categories of Scientific Theories](https://philsci-archive.pitt.edu/11923/2/Cats.Sci.Theo.pdf)
+	- [Morita Equivalence](https://arxiv.org/abs/1506.04675)
+	- [Glymour and Quine on Theoretical Equivalence](https://philsci-archive.pitt.edu/11341/1/glymour%26quine.pdf)
+	- [Scientific Theories](https://philsci-archive.pitt.edu/11347/1/sci-theories.pdf) (Oxford Handbook of Philosophy of Science)

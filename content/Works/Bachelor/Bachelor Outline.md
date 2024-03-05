@@ -3,9 +3,9 @@ draft: false
 ---
 For a complete list of the my works during the bachelor, visit [[Index of all Works]], in this page I collect general considerations on my first two years of study.
 
-In the first two years of university I plan to get a BSc in Mathematics and a BA in Philosophy at the LMU Munich. I see two features of my early studies, which are distinguished from the average passionate student in my field: [[Bachelor#The Amount of ECTS in Brief Time]] and [[Bachelor#The Variety of Competence Acquired]]. Here I will briefly examine these two aspects and then report the present data on the final mark.
+In the first two years of university I plan to get a BSc in Mathematics and a BA in Philosophy at the LMU Munich. I see two features of my early studies, which are distinguished from the average passionate student in my field: [[Bachelor Outline#The Amount of ECTS in Brief Time]] and [[Bachelor Outline#The Variety of Competence Acquired]]. Here I will briefly examine these two aspects and then report the present data on the final mark.
 ## The Amount of ECTS in Brief Time
-Let's begin with a couple of numbers. I divide the ECTS in those that have been necessary to obtain the BA Philosophy or the BSc Mathematics and those which I followed for my own pleasure, for clarity I kept the two lists with empty intersection. I also separated with the "+" the credits for the [[Thesis Home]], since I worked on it during the brake between the semesters.
+Let's begin with a couple of numbers. I divide the ECTS in those that have been necessary to obtain the BA Philosophy or the BSc Mathematics and those which I followed for my own pleasure, for clarity I kept the two lists with empty intersection. I also separated with the "+" the credits for the [[Bachelor Thesis]], since I worked on it during the brake between the semesters.
 
 | Semester      | Phil. | Math. | Pleasure | Total|
 | :---        |  :----: |   :----: |:----:| :----:|

@@ -6,4 +6,4 @@ Here I list relevant documents that might be useful to the reader:
 5. Italian ID Card, [[Front ID Card.pdf]], [[Back ID Card.pdf]]
 6. [[CAE English Certificate (C1).pdf]]
 7. [[TestDaf German Certificate (C1).pdf]]
-8. [[Liceo Final Mark.pdf]]
+8. [[High School Diploma.pdf]]
