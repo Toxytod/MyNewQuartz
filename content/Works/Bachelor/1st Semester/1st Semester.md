@@ -1,1 +1,0 @@
-For a list of courses of the first semester visit the page [[Index of all Works#1st Semester]].

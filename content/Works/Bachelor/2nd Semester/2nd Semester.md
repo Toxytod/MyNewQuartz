@@ -1,1 +1,0 @@
-For a list of courses of the second semester visit the page [[Index of all Works#2nd Semester]].
